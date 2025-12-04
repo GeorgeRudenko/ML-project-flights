@@ -23,3 +23,6 @@ pip install -r requirements.txt
 # Запуск marimo-приложения
 marimo run hw_simple_new.py
 ```
+
+## Лицензия
+Этот проект распространяется под лицензией MIT. Подробнее см. [LICENSE](LICENSE).
