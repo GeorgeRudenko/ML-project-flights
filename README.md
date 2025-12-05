@@ -18,11 +18,11 @@
 ## 🎮 Live Demo Interface
 
 ### Interactive Controls
-\`\`\`python
+```python
 # Marimo UI Components
 airport_selector = mo.ui.dropdown(options=["JFK", "LAX", "ORD", ...])
 weather_slider = mo.ui.slider(start=1.0, stop=3.0, step=0.1, value=1.5)
-\`\`\`
+```
 
 | Control | Function | Range |
 |---------|----------|-------|
@@ -46,25 +46,42 @@ weather_slider = mo.ui.slider(start=1.0, stop=3.0, step=0.1, value=1.5)
 ### 📁 Available Files:
 | File | Size | Description |
 |------|------|-------------|
-| \`flight_data_2024.csv\` | ~15 MB | Sampled subset from original Kaggle dataset |
-| \`flight_data_processed.csv\` | ~8 MB | Preprocessed with feature engineering |
+| `flight_data_2024.csv` | ~15 MB | Sampled subset from original Kaggle dataset |
+| `flight_data_processed.csv` | ~8 MB | Preprocessed with feature engineering |
 
 ### 📍 File Placement:
-\`\`\`
+```
 Your project folder/
 ├── flight_data_2024.csv      ← Download from Google Drive
 ├── flight_data_processed.csv ← Download from Google Drive
 ├── hw_simple_new.py
 ├── requirements.txt
 └── ... (other project files)
-\`\`\`
+```
 
 ---
 
 ## 🚀 Quick Start
 
-\`\`\`bash
-\`\`\`
+```bash
+# 1. Clone repository
+git clone https://github.com/GeorgeRudenko/ML-project-flights.git
+cd ML-project-flights
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Download data from Google Drive (link above)
+#    - flight_data_2024.csv
+#    - flight_data_processed.csv
+
+# 4. Place CSV files in project root folder
+
+# 5. Launch simulator
+marimo run hw_simple_new.py
+
+# 6. Open browser: http://localhost:8088
+```
 
 ---
 
@@ -93,12 +110,12 @@ The model doesn't use actual weather data. Instead, it **simulates weather impac
 ---
 
 ## 📁 Project Structure
-\`\`\`
+```
 hw_simple_new.py          # Main application with interactive UI
 requirements.txt          # Python dependencies
 *.ipynb                  # Analysis notebooks
 LICENSE, README.md       # Documentation
-\`\`\`
+```
 
 ---
 
@@ -110,7 +127,7 @@ LICENSE, README.md       # Documentation
 ### 🔄 Full Reproduction (Optional):
 For complete reproducibility:
 1. Original source: [Kaggle Dataset](https://www.kaggle.com/datasets/nalisha/flight-delay-and-cancellation-data-1-million-2024)
-2. Run \`eda.ipynb\` → creates sampled dataset
-3. Run \`model.ipynb\` → applies feature engineering
+2. Run `eda.ipynb` → creates sampled dataset
+3. Run `model.ipynb` → applies feature engineering
 
 *Note: Google Drive files are provided for convenience to avoid downloading 1GB+ of raw data.*
