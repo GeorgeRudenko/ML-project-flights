@@ -30,9 +30,9 @@ weather_slider = mo.ui.slider(start=1.0, stop=3.0, step=0.1, value=1.5)
 | **Weather Severity** | Simulate weather impact | 1.0x (Normal) to 3.0x (Storm) |
 
 ### Real-time Visualization
-- **Green Bar**: Baseline arrival time (Severity = 1.0)
-- **Red Bar**: Adjusted prediction with weather impact
-- **Delta Display**: `+X minutes` delay warning
+- **Comparative horizontal bar chart showing:
+- **🟢 **Baseline**: Flight duration under normal conditions (Severity = 1.0)
+- **🔴 **Forecast**: Predicted duration with selected Weather Severity Factor
 - **Dynamic Updates**: Instant recalculation on slider movement
 
 ---
@@ -88,3 +88,38 @@ LICENSE, README.md       # Documentation
 
 ## 👤 Author
 **George Rudenko** © 2025 | Academic Project | Machine Learning Applications
+
+## 📥 Download Prepared Data
+
+### 🚀 Direct Download Link
+**Access preprocessed dataset files here:**
+🔗 **[Google Drive: Flight Data for ML Project](https://drive.google.com/drive/folders/1piC9bHKQW2Fphi6pShXYybbxSZFKCMLp?usp=drive_link)**
+
+### 📁 Available Files:
+| File | Size | Description |
+|------|------|-------------|
+| `flight_data_2024.csv` | ~15 MB | Original Kaggle dataset |
+| `flight_data_processed.csv` | ~8 MB | Preprocessed version with feature engineering applied |
+
+### 🛠 Quick Setup:
+1. **Download** both CSV files from the Google Drive link above
+2. **Place files** in your project folder (same directory as `hw_simple_new.py`)
+3. **Run application:** `marimo run hw_simple_new.py`
+
+### 📍 File Placement:
+```
+Your project folder/
+├── flight_data_2024.csv      ← Download from Google Drive
+├── flight_data_processed.csv ← Download from Google Drive
+├── hw_simple_new.py
+├── requirements.txt
+└── ... (other project files)
+```
+
+### 🔄 Full Reproduction (Optional):
+For complete reproducibility:
+1. Original source: [Kaggle Dataset](https://www.kaggle.com/datasets/nalisha/flight-delay-and-cancellation-data-1-million-2024)
+2. Run `eda.ipynb` → creates sampled dataset
+3. Run `model.ipynb` → applies feature engineering
+
+*Note: Google Drive files are provided for convenience to avoid downloading 1GB+ of raw data.*
