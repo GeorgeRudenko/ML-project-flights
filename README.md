@@ -1,5 +1,3 @@
-# Создаём новый README с правильным порядком
-cat > README.md << "EOF"
 # ✈️ Flight Weather Impact Simulator: ML-Powered Delay Prediction
 
 <div align="center">
@@ -128,4 +126,3 @@ For complete reproducibility:
 3. Run \`model.ipynb\` → applies feature engineering
 
 *Note: Google Drive files are provided for convenience to avoid downloading 1GB+ of raw data.*
-EOF
