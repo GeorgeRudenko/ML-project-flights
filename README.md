@@ -46,8 +46,8 @@ weather_slider = mo.ui.slider(start=1.0, stop=3.0, step=0.1, value=1.5)
 ### 📁 Available Files:
 | File | Size | Description |
 |------|------|-------------|
-| `flight_data_2024.csv` | ~15 MB | Sampled subset from original Kaggle dataset |
-| `flight_data_processed.csv` | ~8 MB | Preprocessed with feature engineering |
+| `flight_data_2024.csv` | ~85 MB | Sampled subset from original Kaggle dataset |
+| `flight_data_processed.csv` | ~204 MB | Preprocessed with feature engineering |
 
 ### 📍 File Placement:
 ```
