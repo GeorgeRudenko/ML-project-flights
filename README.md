@@ -42,7 +42,7 @@ weather_slider = mo.ui.slider(start=1.0, stop=3.0, step=0.1, value=1.5)
 ### Original Dataset
 - **Source:** [Kaggle: Flight Delay and Cancellation Data (2024)](https://www.kaggle.com/datasets/nalisha/flight-delay-and-cancellation-data-1-million-2024)
 - **Files used:**
-  - `flight_data_2024.csv` - Sampled subset (50K records)
+  - `flight_data_2024.csv` - Original dataset
   - `flight_data_processed.csv` - With `origin_avg_delay`, `hourly_avg_delay` features
 
 ### Weather Simulation Logic
