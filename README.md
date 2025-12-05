@@ -64,18 +64,6 @@ Your project folder/
 ## 🚀 Quick Start
 
 \`\`\`bash
-# 1. Clone and install
-git clone https://github.com/GeorgeRudenko/ML-project-flights.git
-cd ML-project-flights
-pip install -r requirements.txt
-
-# 2. Download data from Google Drive link above
-# 3. Place CSV files in project folder (see placement diagram)
-
-# 4. Launch simulator
-marimo run hw_simple_new.py
-
-# 5. Open browser: http://localhost:8088
 \`\`\`
 
 ---
